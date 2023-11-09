@@ -91,20 +91,20 @@ class Check extends Type{
 public class Abstraction {
  public static void main(String[] args) {
      // Example usage
-     Book bookExample = new Book("The Catcher in the Rye", "J.D. suresh", 1951, "Fiction", true);
-     DVD dvdExample = new DVD("Inception", "jayamma", 2010, 148, true);
+     Method methodExample = new Method("The Catcher in the Rye", "J.D. suresh", 1951, "Fiction", true);
+     Check checkExample = new Check("Inception", "jayamma", 2010, 148, true);
+    
+
+
      // Example of abstraction
-      MethodExemple.checkOut();
-     Example.returnItem();
+     methodExample.checkOut();
+     checkExample.returnItem();
 
      // Display details using abstract method
-     bookExample.displayDetails();
-     dvdExample.displayDetails();
+     methodExample.displayDetails();
+     checkExample.displayDetails();
  }
 }
-
-
-
 
 
 
